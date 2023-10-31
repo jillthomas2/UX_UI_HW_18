@@ -1,0 +1,73 @@
+/* Nav Styles */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0px 10px 0px 10px;
+  border-bottom: 1px solid #000;
+}
+.logo, .right{
+  height: 50px;
+  display: flex;
+  align-items: center;
+
+}
+
+.right a {
+  color: black;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Body Styles */
+.body {
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px, 50px, 50px, 0px;
+}
+
+.bodyLeft {
+color:black;
+display: flex;
+flex-direction: column;
+}
+
+.bodyRight {
+color:black;
+width: 300px;
+display: flex;
+flex-direction: column;
+
+}
+
+/* Card Styles */
+
+
+/* Footer Styles */
+.footer{
+  background: #ECFE96;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contactInfo {
+color:black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
