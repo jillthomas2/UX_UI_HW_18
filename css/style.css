@@ -28,6 +28,7 @@
   justify-content: space-around;
   align-items: center;
   padding: 0px, 50px, 50px, 0px;
+  background-color: #ECFE96;
 }
 
 .bodyLeft {
@@ -44,8 +45,23 @@ flex-direction: column;
 
 }
 
-/* Card Styles */
+/* My Work Styles */
+.mywork {
+  display: flex;
+  justify-content: center;
+}
+.container-fluid {
+  display:flex;
+  justify-content: center;
+  padding: 10px, 50px, 50px, 10px;
+}
 
+
+.row {
+  display:flex;
+  justify-content: center;
+  padding: 10px, 50px, 50px, 10px;
+}
 
 /* Footer Styles */
 .footer{
